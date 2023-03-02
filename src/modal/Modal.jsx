@@ -20,9 +20,7 @@ import { SlLike, SlSocialInstagram, SlSocialTwitter } from 'react-icons/sl'
 
 export default function ModalBox({ data }) {
     const { isOpen, onOpen, onClose } = useDisclosure();
-    // const text = useColorModeValue('white','');
-    const bg = useColorModeValue('red', 'red.500')
-
+    
     return (
         <>
             <br />
